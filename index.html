@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to ABC</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+        <header>
+
+          <img src="vid/Screenshot 2024-04-28 222018.png" class="logo"> 
+                 <a onclick=showSidebar() href="#"><img src="vid/icons8-menu-32 (1).png" alt="menu" class="ham"></a>
+                
+            <ul class="sidebar">
+                
+                <div class="close">
+                 <li onclick="hideSidebar()" class="no-hover"><a href="#"><img src="vid/icons8-x-50.png" alt="X" class="X"></a></li>
+                </div>
+                
+                <div class="sideimage">
+                    <img src="vid/s1.png" alt="pec">
+                    <img src="vid/s2.png" alt="pec">
+                    <img src="vid/s3.png" alt="pec">
+                    <img src="vid/s4.png" alt="pec">
+               </div>
+               
+               <li class="hide"><a href="#">Home</a></li>
+                <li class="hide"><a href="#">Courses</a></li>
+                <li class="hide"><a href="#">Academics</a></li>
+                <li class="hide"><a href="#">Facilities</a></li>
+                <li class="hide"><a href="#">Research</a></li>
+                <li><a href="#">Campus</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Placements</a></li>
+                <li><a href="http://localhost/College-Management-System/login/login.php" target="_blank">CMS Services</a></li>
+                <li><a href="#">About us</a></li>
+    
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bx-envelope'></i></a>
+                </div>
+            
+            </ul>
+    
+            <ul class="navlist">
+                <li class="hideonmobile"><a href="#">Home</a></li>
+                <li class="hideonmobile"><a href="#">Courses</a>
+                  <div class="mega-box">
+                    <div class="content">
+                      <div class="row">
+                        <ul class="mega-links">
+                          <h1>Undergraduate</h1>
+                          <li><a href="#">B.E - Computer Science and Engineering</a></li>
+                          <li><a href="#">B.E - Electronics and Communication Engineering </a></li>
+                          <li><a href="#">B.E - Electrical and Electronics Engineering</a></li>
+                          <li><a href="#">B.E - Mechanical Engineering</a></li>
+                          <li><a href="#">B.Tech - Computer Science and Business Systems</a></li>
+                          <li><a href="#">B.Tech - Information Technology</a></li>
+                          <li><a href="#">B.Tech - Artificial Intelligence & Data Science</a></li>
+                          <li><a href="#">B.Tech - Artificial Intelligence & Machine Learning</a></li>
+                        </ul>
+                      </div>
+                      <div class= "vertical"></div>
+                      <div class="row">
+                        <ul class="mega-links">
+                          <h1>Postgraduate</h1>
+                          <li><a href="#">M.E Computer Science and Engineering</a></li>
+                          <li><a href="#">M.E Communication Systems </a></li>
+                          <li><a href="#"> Master Of Business Administrationa (MBA)</a></li>
+                        </ul>
+                      </div>
+                      <div class= "vertical"></div>
+                      <div class="row">
+                        <ul class="mega-links">
+                          <h1>Humanities And Science</h1>
+                          <li><a href="#">Humanities And Science</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="hideonmobile"><a href="#">Academics</a>
+                  <ul class="drop-menu">
+                    <li><a href="#">Committee</a></li>
+                    <li><a href="#">EDC Cell</a></li>
+                    <li><a href="#">IQAC</a></li>
+                    <li><a href="#">Programmes & Curriculum</a></li>
+                    <li><a href="#">Professional Bodies</a></li>
+                    <li><a href="#">Extra-Curricular Activities</a></li>
+                    <li><a href="#">Innovation And Start Up</a></li>
+                    <li><a href="#">NIRF</a></li>
+                    <li><a href="#">ARIIA Report</a></li>
+                  </ul>
+                </li>
+                <li class="hideonmobile"><a href="#">Research</a>
+                  <ul class="drop-menu">
+                    <li><a href="#">Research Policy</a></li>
+                    <li><a href="#">Icon</a></li>
+                    <li><a href="#">Research Downloads</a></li>
+                    <li><a href="#">Ph.D.Review Meetings</a></li>
+                  </ul>
+                </li>
+                <li class="hideonmobile"><a href="#">Facilities</a>
+                  <ul class="drop-menu">
+                    <li><a href="#">Green Campus</a></li>
+                    <li><a href="#">Infrastructures</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Internet</a></li>
+                    <li><a href="#">Transport</a></li>
+                    <li><a href="#">Mess</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Hostel</a></li>
+                    <li><a href="#">ATM Facilities</a></li>
+                    <li><a href="#">Water Sewage TreatmentPlant</a></li>
+                  </ul>
+                </li>
+                <li class="hideonmobile"><a href="#">About us</a>
+                  <ul class="drop-menu">
+                    <li><a href="#">About Panimalar</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Alumini Association</a></li>
+                    <li><a href="#">Rules and Regulations</a></li>
+                    <li><a href="#">Corporate and International Relations</a></li>
+                  </ul>
+                </li>
+             </ul>
+             <a href="#" class="btn">Admission</a>
+        </header>
+          
+          <div class="sticky">
+            <a href="http://localhost/Student-Management-System-PHP/Student%20Management%20System%20PHP/studentms/user/login.php" target="_blank">Student Portal <i class='bx bx-user'></i></a>
+            <a href="http://localhost/Student-Management-System-PHP/Student%20Management%20System%20PHP/studentms/admin/login.php" target="_blank">Admin Login <i class='bx bx-id-card'></i></a>
+          </div>
+
+          <div class="floating-container">
+            <div class="floating-button">+</div>
+            <div class="element-container">
+          
+              <a href=""> <span class="float-element tooltip-left">
+                <i class="material-icons">phone</i></a>
+              </span>
+                <span class="float-element">
+                <a href=mailto:info@panimalar.ac.in><i class='bx bxs-envelope' ></i></a>
+              </span>
+                <span class="float-element">
+                <a href="#" target="_blank"><i class='bx bxs-map'></i></a>
+              </span>
+            </div>
+          </div>
+
+  <script type="text/javascript" src="script.js"></script>
+ 
+</body>
+</html>
